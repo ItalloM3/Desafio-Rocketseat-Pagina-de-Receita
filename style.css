@@ -1,34 +1,49 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
-}
-
 body{
   color: #39393A;
   background-color: #EAEAEA;
   font-family: 'Roboto', sans-serif;
+  display: grid;
+  place-items: center;
+  margin: 5%;
+  margin-bottom: 0;
 }
 
 main{
   background-color: #FFFFFF;
   border-radius: 10px;
+  display: grid;
+  place-self: center;
 }
 
 h1{
   font-size: 1.75rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin-top: 0.75rem;
+}
+
+figure{
+  margin: 0 5%;
 }
 
 img{
   height: 250px;
   width: 100%;
-  object-fit: contain;
-  margin-left: -2rem;
   border-radius: 10px;
+  height: 290px;
+  width: 100%;
 }
 
-h2, h3{
-  font-size: 1.25rem;
+h2{
+  font-size: 1.45rem;
+  display: grid;
+  place-items: center;
+}
+
+h3{
+  font-size: 1.35rem;
+  margin-left: 1%;
 }
 
 h1, h2, h3{
@@ -41,8 +56,31 @@ li, p{
   list-style-position: outside;
 }
 
+main p{
+  text-indent: 10px;
+  margin-left: 10px;
+}
+
 footer, figcaption{
   font-size: 0.75rem;
   color: #8F8F8F;
 }
 
+footer{
+  margin-top: 5%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #8F8F8F;
+  margin: 0;
+}
+
+footer p{
+  font-size: 16px;
+  margin: 0;
+  margin-top: 3%;
+}
